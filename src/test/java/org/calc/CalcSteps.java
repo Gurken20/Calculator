@@ -4,7 +4,7 @@ import io.cucumber.java.en.*;
 
 import static org.junit.Assert.assertEquals;
 
-public class AddSteps {
+public class CalcSteps {
 
     Calculator calc = new Calculator();
     int result;
@@ -17,5 +17,10 @@ public class AddSteps {
     @Then("the result is {int}")
     public void theResultIs(int arg0) {
         assertEquals("Incorrect result", arg0, result);
+    }
+
+    @When("we subtract two numbers {int} and {int}")
+    public void weSubtractTwoNumbersAnd(int arg0, int arg1) {
+        result = calc.sub(arg0, arg1);
     }
 }

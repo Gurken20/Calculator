@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18eda25f-6269-4c79-a0a1-e29f0be3cae3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/features/sub.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/calculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/add.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/calc/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/calc/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/calc/AddSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/calc/CalcSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +54,27 @@
       <recent name="C:\Users\Steffan\02267\jenkins\Calculator" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Subtract two numbers">
+    <configuration name="Scenario: Subtract two numbers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/features/sub.feature" />
+      <option name="GLUE" value="org.calc" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Calculator" />
+      <option name="NAME_FILTER" value="^Subtract two numbers$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Subtract two numbers$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Subtract two numbers" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <extension name="coverage">
@@ -69,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Subtract two numbers" />
         <item itemvalue="JUnit.CucumberTest" />
       </list>
     </recent_temporary>
